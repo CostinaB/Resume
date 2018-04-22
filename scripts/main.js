@@ -22,7 +22,7 @@ function showContent(data){
 };
 
 function showAbout(data){
-    var title = document.createElement('h1');
+    /*var title = document.createElement('h1');
     document.body.appendChild(title);
     var birth = document.createElement('p');
     var description = document.createElement('p');
@@ -32,7 +32,7 @@ function showAbout(data){
     var section = document.querySelector('div.about_me');
     section.appendChild(title);
     section.appendChild(birth);
-    section.appendChild(description);
+    section.appendChild(description);*/
 };
 var sectiontest = document.querySelector('div.about_me');
 //sectiontest.style.backgroundColor = "blue";
