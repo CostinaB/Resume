@@ -1,14 +1,21 @@
-var url = "https://github.com/CostinaB/Resume/blob/master/profile.json";
-fetch(url, {
-    method: 'GET',
-    headers: new Headers({
-        'Content-Type': 'application/json'
+window.onload = function(){
+    var url = "https://github.com/CostinaB/Resume/blob/master/profile.json";
+    /*fetch('profile.json', {
+        method: 'GET',
+        headers: new Headers({
+            'Content-Type': 'application/json'
+        })
     })
-})
-.then(response => showContent(response))
-.catch(function(err){
-    console.log(err);
-});
+    .then(response => showContent(response.json()))
+    .catch(function(err){
+        alert("eroare " + err);
+    });*/
+    fetch('profile.json')
+    .then(response => showContent(response.json()))
+    .catch(function(err){
+        alert("eroare " + err);
+    });
+};
 
 function showContent(data){
     showAbout(data['about_me']);
@@ -16,6 +23,7 @@ function showContent(data){
 
 function showAbout(data){
     var title = document.createElement('h1');
+    document.body.appendChild(title);
     var birth = document.createElement('p');
     var description = document.createElement('p');
     title.textContent = data['first_name'] + " " + data['last_name'];
