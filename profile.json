@@ -1,0 +1,96 @@
+{
+    "about_me":
+    {
+        "last_name": "Bâtica",
+        "first_name": "Costina",
+        "birthdate": "17-05-1996",
+        "age": 21,
+        "description": ""
+    },
+    "contact":
+    {
+        "email": "costina.baticaa@gmail.com",
+        "phone": "0728097972",
+        "website": ""
+    },
+    "education": {
+        "college": "University of Bucharest",
+        "faculty": "Faculty of Mathematics and Computer Science",
+        "specialization": "Computer Science",
+        "diploma": "BSc",
+        "start_date": "October 2015",
+        "end_date": "July 2018"
+    },
+    "skills": {
+        "languages": [
+            {
+                "name": "English",
+                "proficiency": 5,
+                "certificate": "Cambridge Certificate in Advanced English Grade A"
+            },
+            {
+                "name": "French",
+                "proficiency": "3"
+            }
+        ],
+        "technologies": [
+            {
+                "advanced": [
+                "Javascript",
+                "Java",
+                "databases"
+                ],
+                "familiar_with": [
+                    "Angular",
+                    "CSS",
+                    "HTML",
+                    "NodeJS"
+                ],
+                "prior experience":[
+                    "C++"
+                ]
+            }
+        ]
+    },
+    "interests": [
+
+    ],
+    "projects": [
+        {
+            "title": "",
+            "start_date": "",
+            "end_date": "",
+            "highlights":[
+                "",
+                ""
+            ],
+            "most_challenging":[
+                ""
+            ]
+        },
+        {
+            "title": "",
+            "start_date": "",
+            "end_date": "",
+            "highlights":[
+                "",
+                ""
+            ],
+            "most_challenging":[
+                ""
+            ]
+        },
+        {
+            "title": "",
+            "start_date": "",
+            "end_date": "",
+            "highlights":[
+                "",
+                ""
+            ],
+            "most_challenging":[
+                ""
+            ]
+        }
+    ]
+}
