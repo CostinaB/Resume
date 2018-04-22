@@ -22,6 +22,7 @@ function showContent(data){
 };
 
 function showAbout(data){
+    alert("worked");
     /*var title = document.createElement('h1');
     document.body.appendChild(title);
     var birth = document.createElement('p');
