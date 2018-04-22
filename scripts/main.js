@@ -1,5 +1,5 @@
 window.onload = function(){
-    var url = "https://github.com/CostinaB/Resume/blob/master/profile.json";
+    var url = "https://github.com/CostinaB/Resume/blob/master/scripts/profile.json";
     /*fetch('profile.json', {
         method: 'GET',
         headers: new Headers({
@@ -13,7 +13,7 @@ window.onload = function(){
     fetch('profile.json')
     .then(response => showContent(response.json()))
     .catch(function(err){
-        alert("eroare " + err);
+        alert("eroare :( " + err);
     });
 };
 
