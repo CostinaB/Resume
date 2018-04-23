@@ -34,12 +34,13 @@ h1, h2, .title {
 .title{
     padding: 0;
     margin-top: 0;
+    letter-spacing: 0.2em;
 }
 .projects{
     margin-top: 1%;
 }
 #name{
-    font-weight: 1100;
+    font-weight: 900;
     font-size: 200%;
 }
 .container1{
@@ -49,6 +50,7 @@ h1, h2, .title {
     padding-bottom: 0;
     padding-right: 5%;
     flex: 1;
+    margin-right: 5%;
 }
 .container2{
     display: flex;
@@ -71,4 +73,69 @@ h4{
 .clearfix{
     margin-top: 20px;
     background-color: whitesmoke;
+}
+img{
+    padding: 5%;
+    padding-bottom: 10%;
+}
+.fa-quote-right{
+    margin-left: 100%;
+    display: block;
+}
+.fa-quote-left, .fa-quote-right{
+    color: #7F2638;
+    font-size: 1.5em;
+}
+.fa-mobile{
+    font-size: 24px;
+}
+.circle{
+    background-color: #7F2638;
+    border-radius: 50%;
+    height: 0.01em;
+    width: 0.01em;
+    float: left;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+.empty{
+    background-color: rgb(158, 158, 158);
+}
+.float-left{
+    float: left;
+    margin-right: 2%;
+}
+.advanced{
+    margin-right: 18%;
+}
+.familiar{
+    margin-right: 11%;
+}
+.clear{
+    clear: both;
+}
+.bold{
+    font-weight: 600;
+}
+ul{
+    list-style-type: disc;
+    line-height: 120%;
+}
+@media only screen and (max-width: 995px) {
+    .container1{
+        display: block;
+    }
+    .container2{
+        display: block;
+    }
+    .contact{
+        width: 100%;
+        padding: 0%;
+        font-size: 1em;
+    }
+}
+@media only screen and (max-width: 540px) {
+    body{
+        font-size: 0.9em;
+    }
 }

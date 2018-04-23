@@ -4,52 +4,72 @@
     <meta charset="utf-8" />
     <title>My Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
-</head>
+    </head>
 <body>
     <main>
         <div class="about_me">
             <div class="title">
                     <h1 id="name">BÂTICA COSTINA</h1>
                     <!-- <p>21 years(17-05-1996)</p>-->
-                </div>
+            </div>
+            <i class="fa fa-quote-left"></i>
             <p>Studying Computer Science in college has taught me an important
-                lesson that continues to be my approach to every challenge; 
-                start with building a solid base. My base is knowing how to
-                learn and dissect every issue until I understand it completely.
-                I made this the foundation for all of my skills. What I find 
-                most attractive about Computer Science is the possibility to 
-                not only work with new and advanced technologies but to also 
-                improve and create exciting projects. This is also the reason 
-                for my passion and why I welcome any opportunities to learn. 
-                As for my dreams and ambitions, my long-term goal is to become
-                a full stack developer, a position which will enable me to have
-                the status of a full-rounded software engineer. My desire for 
-                the immediate future, however, is to work in a rookie friendly
-                environment and build my career layer by layer.</p>
+            lesson that continues to be my approach to every challenge; 
+            start with building a solid base. My base is knowing how to
+            learn and dissect every issue until I understand it completely.
+            I made this the foundation for all of my skills. What I find 
+            most attractive about Computer Science is the possibility to 
+            not only work with new and advanced technologies but to also 
+            improve and create exciting projects. This is also the reason 
+            for my passion and why I welcome any opportunities to learn. 
+            As for my dreams and ambitions, my long-term goal is to become
+            a full stack developer, a position which will enable me to have
+            the status of a full-rounded software engineer. My desire for 
+            the immediate future, however, is to work in a rookie friendly
+            environment and build my career layer by layer.
+            <i class="fa fa-quote-right"></i>
+            </p>
+            
         </div>
         <div class="container2">
             <div class="container1">
                 <div class="contact">
                     <h2>CONTACT</h2>
-                    <p>costina.baticaa@gmail.com</p>
-                    <p>0728097972</p>
-                    <p>https://costinab.github.io/Resume</p>
+                    <p><i class="fa fa-envelope-o"></i>costina.baticaa@gmail.com</p>
+                    <p><i class="fa fa-mobile"></i><br>  0728097972</p>
+                    <p><i class="fa fa-laptop"></i>  https://costinab.github.io/Resume</p>
                 </div>
                 <div class="education">
                     <h2>EDUCATION</h2>
-                    <h4>University Of Bucharest</h4>
+                    <h4>Bachelor of Science in Computer Science</h4>
+                    <p>University Of Bucharest</p>
                     <p>Faculty of Mathematics and Computer Science</p>
-                    <h4>Computer Science Bsc </h4>
                     <p>2015 - July 2018</p>
                     <h4>Vasile Alecsandri National College, Galați </h4>
-                    <p>2011-2015</p>
+                    <p>2011 - 2015</p>
                 </div>
             </div>
                 <div class="projects">
                     <h2>PROJECTS</h2> 
-                    <h4></h4>
-                    <p>Lorem ipsum dolor sit amet ipit optio explicabo quidem vitae ad?</p>
+                    <h4>Course Project for Advanced OOP</h4>
+                    <ul>
+                        <li>For this course, I implemented a multi-threaded chat, using Java, Swing and a database</li>
+                        <li>The requirements for the project specified that the users would be able to join the conversation by sending a request</li>
+                        <li>In this way, only one person was allowed to write a message, while the others waited for their turn</li>
+                    </ul>
+                    <h4>Web Application that resembles Twitter</h4>
+                    <ul>
+                        <li>This is a project that uses the MEAN stack, a collection of Javascript based technologies(MongoDB, Express.js, Angular.js, Node.js)</li>
+                        <li>The result is a single-page web application </li>
+                    </ul>
+                    <h4>Final year project/Dissertation</h4>
+                    <ul>
+                        <li>I am currently working on a website where users can collaborate to write stories,  </li>
+                        <li>It is written using Javascript and the MEAN stack</li>
+                    </ul>
                 </div>
         </div>
         <div class="container2">
@@ -57,19 +77,47 @@
                 <h2>SKILLS</h2>
                 <section>
                     <h3>LANGUAGES</h3>
-                    <p>English</p>
+                    <p class="bold">English - Fluent speaker</p>
                     <p>Cambridge Certificate in Advanced English Grade A</p>
-                    <p>French</p>
+                    <p class="bold">French - Beginner</p>
                 </section>
-                <section>
+                <section >
                     <h3>TECHNOLOGIES</h3>
-                    <p><h4>Advanced</h4> Javascript, Java, databases</p>
-                    <p><h4>Familiar with</h4> CSS/HTML, Angular, Node.js</p>
-                    <p><h4>Prior experience</h4> C++</p>
+                    <h4 class="float-left advanced">Advanced</h4> 
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <p class="clear">Javascript, Java, databases</p>
+                    <h4 class="float-left familiar">Familiar with</h4>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle empty"></div>
+                    <p class="clear">CSS/HTML, Angular, Node.js</p>
+                    <h4 class="float-left">Prior experience</h4>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle empty"></div>
+                    <div class="circle empty"></div>
+                    <p class="clear">C++</p>
                 </section>
             </div>
             <div class="interests">
                 <h2>INTERESTS</h2>
+                <img src="img/music-player.png">
+                <img src="img/travel.png">
+                <img src="img/library.png">
+                <img src="img/animal-prints.png">
+                <img src="img/android.png">
+                <img src="img/puzzle.png">
+                <img src="img/linux.png">
+                <img src="img/scholarship.png">
+                <img src="img/forest.png">
+                
             </div>
         </div>
         <div class="clearfix">
