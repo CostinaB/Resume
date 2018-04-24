@@ -1,5 +1,5 @@
-html { 
-    background: url(../img/bg6.jpg) no-repeat center center fixed; 
+html {
+    background: url(../img/bg6.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,7 +9,7 @@ html {
 main{
     margin: auto;
     width: 70%;
-    background-color: whitesmoke; 
+    background-color: whitesmoke;
     padding-top: 5%;
     margin-top: 5%;
 }
@@ -100,7 +100,7 @@ img{
     width: 0.01em;
     float: left;
     margin-right: 1%;
-    margin-left: 2%;
+    margin-left: 1%;
 }
 .empty{
     background-color: rgb(158, 158, 158);
@@ -110,7 +110,7 @@ img{
     margin-right: 2%;
 }
 .advanced{
-    margin-right: 18%;
+    margin-right: 5%;
 }
 .familiar{
     margin-right: 11%;

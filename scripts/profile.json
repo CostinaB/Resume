@@ -42,9 +42,9 @@
         "technologies": [
             [
                 {
-                    "name": "Advanced",
+                    "name": "Knowledgeable",
                     "class": "advanced",
-                    "level": 5
+                    "level": 4
                 },
                 "Javascript",
                 "Java",
@@ -54,7 +54,7 @@
                 {
                     "name": "Familiar with",
                     "class": "familiar",
-                    "level": 4
+                    "level": 3
                 },
                 "Angular",
                 "CSS/HTML",
