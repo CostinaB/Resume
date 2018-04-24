@@ -3,93 +3,98 @@
     {
         "last_name": "Bâtica",
         "first_name": "Costina",
-        "birthdate": "17-05-1996",
-        "age": 21,
-        "description": "Insert clever introduction"
+        "description": "Studying Computer Science in college has taught me an important lesson that continues to be my approach to every challenge; start with building a solid base. My base is knowing how to learn and dissect every issue until I understand it completely. I made this the foundation for all of my skills. What I find most attractive about Computer Science is the possibility to not only work with new and advanced technologies but to also improve and create exciting projects. This is also the reason for my passion and why I welcome any opportunities to learn. As for my dreams and ambitions, my long-term goal is to become a full stack developer, a position which will enable me to have the status of a full-rounded software engineer. My desire for the immediate future, however, is to work in a rookie friendly environment and build my career layer by layer."
     },
     "contact":
     {
         "email": "costina.baticaa@gmail.com",
         "phone": "0728097972",
-        "website": ""
+        "website": "https://costinab.github.io/Resume"
     },
-    "education": {
-        "college": "University of Bucharest",
-        "faculty": "Faculty of Mathematics and Computer Science",
-        "specialization": "Computer Science",
-        "diploma": "BSc",
-        "start_date": "October 2015",
-        "end_date": "July 2018"
-    },
+    "education": [
+        {
+            "college": "University of Bucharest",
+            "faculty": "Faculty of Mathematics and Computer Science",
+            "specialization": "Computer Science",
+            "diploma": "Bachelor of Science",
+            "start_date": "2015",
+            "end_date": "July 2018"
+        },
+        {
+            "diploma": "Vasile Alecsandri National College, Galați",
+            "start_date": "2011",
+            "end_date": "2015"
+        }
+        
+    ],
     "skills": {
         "languages": [
             {
                 "name": "English",
-                "proficiency": 5,
+                "proficiency": "Fluent speaker",
                 "certificate": "Cambridge Certificate in Advanced English Grade A"
             },
             {
                 "name": "French",
-                "proficiency": "3"
+                "proficiency": "Beginner"
             }
         ],
         "technologies": [
-            {
-                "advanced": [
+            [
+                {
+                    "name": "Advanced",
+                    "class": "advanced",
+                    "level": 5
+                },
                 "Javascript",
                 "Java",
                 "databases"
-                ],
-                "familiar_with": [
-                    "Angular",
-                    "CSS",
-                    "HTML",
-                    "NodeJS"
-                ],
-                "prior experience":[
-                    "C++"
-                ]
-            }
+            ],
+            [
+                {
+                    "name": "Familiar with",
+                    "class": "familiar",
+                    "level": 4
+                },
+                "Angular",
+                "CSS",
+                "HTML",
+                "NodeJS"
+            ],
+            [
+                {
+                    "name": "Prior experience",
+                    "level": 3
+                },
+                "C++"
+            ]
         ]
     },
     "interests": [
-
+        "music-player", "travel", "library", "animal-prints", 
+        "android", "puzzle", "linux", "scholarship", "forest"
     ],
     "projects": [
         {
-            "title": "",
-            "start_date": "",
-            "end_date": "",
+            "title": "Course Project for Advanced OOP",
             "highlights":[
-                "",
-                ""
-            ],
-            "most_challenging":[
-                ""
+                "For this course, I implemented a multi-threaded chat, using Java and Swing",
+                "The requirements for the project specified that the users would be able to join the conversation by sending a request",
+                "In this way, only one person was allowed to write a message, while the others waited for their turn"
             ]
         },
         {
-            "title": "",
-            "start_date": "",
-            "end_date": "",
+            "title": "Web Application that resembles Twitter",
             "highlights":[
-                "",
-                ""
-            ],
-            "most_challenging":[
-                ""
+                "This is a project that uses the MEAN stack, a collection of Javascript based technologies(MongoDB, Express.js, Angular.js, Node.js)",
+                "The result is a single-page web application, where authenticated users can post \"tweets\""
             ]
         },
         {
-            "title": "",
-            "start_date": "",
-            "end_date": "",
+            "title": "Final year project/Dissertation",
             "highlights":[
-                "",
-                ""
-            ],
-            "most_challenging":[
-                ""
+                "I am currently working on a website where users can collaborate to write stories or create alternate versions for one",
+                "It is written using Javascript and the MEAN stack"
             ]
         }
     ]
