@@ -3,7 +3,7 @@
     {
         "last_name": "Bâtica",
         "first_name": "Costina",
-        "description": "Studying Computer Science in college has taught me an important lesson that continues to be my approach to every challenge; start with building a solid base. My base is knowing how to learn and dissect every issue until I understand it completely. I made this the foundation for all of my skills. What I find most attractive about Computer Science is the possibility to not only work with new and advanced technologies but to also improve and create exciting projects. This is also the reason for my passion and why I welcome any opportunities to learn. As for my dreams and ambitions, my long-term goal is to become a full stack developer, a position which will enable me to have the status of a full-rounded software engineer. My desire for the immediate future, however, is to work in a rookie friendly environment and build my career layer by layer."
+        "description": "Studying Computer Science has taught me an important lesson that continues to be my approach to every challenge; start with building a solid foundation. For me, this is analyzing every issue until I understand it completely and feel confident using it. One of the reasons for my passion and why I welcome any opportunity to learn is the possibility to improve the technology and come up with creative solutions for exciting projects. As for my dreams and ambitions, my long-term goal is to become a full stack developer. My desire for the immediate future, however, is to work in a rookie friendly environment and build my career layer by layer."
     },
     "contact":
     {
@@ -92,7 +92,7 @@
         {
             "title": "Final year project/Dissertation",
             "highlights":[
-                "I am currently working on a website where users can collaborate to write stories or create alternate versions for one",
+                "I am currently working on a website where users can collaborate to write stories or create alternate versions for other posted stories",
                 "It is written using Javascript and the MEAN stack"
             ]
         }

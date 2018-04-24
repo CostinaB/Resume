@@ -31,6 +31,10 @@ h1, h2, .title {
     width: 85%;
     margin: auto;
 }
+.about_me{
+    margin-top: 2%;
+}
+
 .title{
     padding: 0;
     margin-top: 0;
